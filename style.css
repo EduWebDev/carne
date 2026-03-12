@@ -14,7 +14,13 @@ body{
     background-color: color-mix(in srgb, var(--bg-principal) 2%, transparent);
     /* background-color: #F2F0EF; */
     /* background-color: #FAFAFA; */
+
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: red; */
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -29,14 +35,22 @@ header{
     justify-content: center;
     padding-top: 30px;
     font-size: 12pt;
+    min-width: 230mm;
+    
     /* flex-direction: column; */
     /* align-items: center; */
 }
 
 main{
     /* display: flex; */
-    position: relative;
+    position: relative; 
     top: -170px;
+    min-width: 230mm;
+    margin: auto;
+
+    /* flex: 1; */
+    /* border: 2px solid #000; */
+    /* height: 3000px; */
 }
 
 footer{
@@ -46,6 +60,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 230mm;
 }
 
 .form-cover{
