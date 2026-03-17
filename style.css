@@ -1,5 +1,6 @@
 :root {
-    --bg-principal: #225F72;
+    --bg-principal: #8A2B0D;
+    /* --bg-principal: #225F72; */
     /* --bg-principal: #01796F; */
 
 }
@@ -16,8 +17,8 @@ body{
     /* background-color: #FAFAFA; */
 
     /* display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    flex-direction: column; */
+    /* min-height: 100vh;
     background-color: red; */
 }
 
@@ -48,9 +49,9 @@ main{
     min-width: 230mm;
     margin: auto;
 
-    /* flex: 1; */
-    /* border: 2px solid #000; */
-    /* height: 3000px; */
+    /* flex: 1;
+    border: 2px solid #000;
+    height: 1200px; */
 }
 
 footer{
@@ -62,6 +63,8 @@ footer{
     align-items: center;
     min-width: 230mm;
 }
+
+
 
 .form-cover{
     background-color: var(--bg-principal);
@@ -177,11 +180,14 @@ footer{
 
     & .folha{
         display: flex;
-        height: 68.5mm;
-        width: 201.5mm;
+        height: 77mm;
+        width: 208mm;
+        /* height: 68.5mm;
+        width: 201.5mm; */
         margin: 40px auto;
         background-color: #FFF;
         box-shadow: 0 0 0.5cm rgba(0,0,0,0.3);
+        align-items: center;
 
         opacity: 0; /* Começa invisível */
         animation: fadeIn 0.5s ease-in forwards;
@@ -189,6 +195,7 @@ footer{
 
 
         & .margin-left{
+            height: 100%;
             border: 1px dashed #CCC;
             width: 19mm;
             background-color: color-mix(in srgb, var(--bg-principal) 30%, transparent);
@@ -202,6 +209,7 @@ footer{
         & .bloco{
             border: 1px dashed #CCC;
             width: 50%;
+            height: 100%;
             padding: 5px;
 
             display: grid;
